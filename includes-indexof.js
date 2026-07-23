@@ -36,3 +36,4 @@ console.log(colors.indexOf("Blue"));
 // 4
 const cities = ["Dhaka", "Khulna", "Rajshahi"];
 console.log(cities.indexOf("Sylhet"));
+
