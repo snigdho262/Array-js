@@ -28,3 +28,25 @@ console.log(data)
 
 const remove = data.shift();
 console.log(remove)
+
+// practice
+// 1
+const fruits = ["Apple", "Banana"];
+fruits.push("Orange");
+console.log(fruits);
+// 2
+const numbers = [10, 20, 30];
+
+const remove = numbers.pop();
+console.log(remove)
+console.log(numbers)
+// 3
+const colors = ["Blue", "Green"];
+colors.unshift("Red");
+console.log(colors)
+// 4
+const cities = ["Dhaka", "Rangpur", "Rajshahi"];
+
+const removed = cities.shift();
+console.log(removed)
+console.log(cities)
