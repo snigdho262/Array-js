@@ -45,3 +45,22 @@ const town = ["Dinajpur", "Rangpur", "Dhaka", "Maldivs"];
 const name = "Snigdho"
 console.log(Array.isArray(town));
 console.log(Array.isArray(name));
+
+// practice
+// 1
+const a = [1, 2];
+const b = [3, 4];
+console.log(a.concat(b));
+
+// 2
+const words = ["I", "Love", "JavaScript"];
+console.log(words.join(" "));
+// 3
+const numbers = [10, 20, 30, 40, 50];
+console.log(numbers.slice(1, 4));
+// 4
+const data = ["HTML", "CSS"];
+console.log(Array.isArray(data));
+// challenge
+const fruits = ["Apple", "Banana", "Orange", "Mango"];
+console.log(fruits.slice(1, 3));
